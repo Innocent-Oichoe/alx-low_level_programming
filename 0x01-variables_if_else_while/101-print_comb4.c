@@ -18,7 +18,7 @@ putchar(hundred);
 putchar(ten);
 putchar(one);
 if (hundred != '7' || ten != '8' || one != '9')
-}
+{
 putchar(',');
 putchar(' ');
 }
