@@ -7,15 +7,18 @@ int main(void)
 {
 int tens;
 int ones;
-for (tens = 0; tens <= 9; tens++)
+for (tens = 48; tens <= 57; tens++)
 {
-for (ones = tens + 1; ones <= 9; ones++)
-putchar(tens + '0');
-putchar(ones + '0');
-if (tens < 8)
+for (ones = 49; ones <= 57; ones++)
 {
-putchar(',');
-putchar(' ');
+if (ones > tens)
+{
+putchar(tens);
+putchar(ones);
+if (tens != 56 || ones != 57)
+{
+putchar(44);
+putchar(32);
 }
 }
 }
