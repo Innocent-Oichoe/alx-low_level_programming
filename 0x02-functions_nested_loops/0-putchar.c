@@ -1,7 +1,8 @@
 #include "main.h"
-/** maib - prints putchar
-* Return : always 0
-*/ 
+/**
+* maib - prints putchar
+* Return : always
+*/
 int main(void)
 {
 _putchar('_');
